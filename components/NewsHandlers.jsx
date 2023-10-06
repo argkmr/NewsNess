@@ -62,7 +62,12 @@ const NewsHandlers = () => {
             setContent(theHindu[0].content);
             setURL(theHindu[0].url);
             setImgURL(theHindu[0].urlToImage)
-        } else setTitle("No Data Available From THE HINDU Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From THE HINDU Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
         setButtonState(true);
     }
 
@@ -73,7 +78,12 @@ const NewsHandlers = () => {
             setContent(theTimesOfIndia[0].content);
             setURL(theTimesOfIndia[0].url);
             setImgURL(theTimesOfIndia[0].urlToImage)
-        } else setTitle("No Data Available From THE TIMES OF INDIA Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From THE TIMES OF INDIA Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
         setButtonState(true);
     }
 
@@ -83,7 +93,12 @@ const NewsHandlers = () => {
             setContent(theIndianExpress[0].content);
             setURL(theIndianExpress[0].url);
             setImgURL(theIndianExpress[0].urlToImage);
-        } else setTitle("No Data Available From THE INDIAN EXPRESS Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From THE INDIAN EXPRESS Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
 
         setButtonState(true);
     }
@@ -94,7 +109,12 @@ const NewsHandlers = () => {
             setContent(theNDTV[0].content);
             setURL(theNDTV[0].url);
             setImgURL(theNDTV[0].urlToImage);
-        } else setTitle("No Data Available From NDTV INDIA Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From NDTV INDIA Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
 
         setButtonState(true);
     }
@@ -105,7 +125,12 @@ const NewsHandlers = () => {
             setContent(theHindustantimes[0].content);
             setURL(theHindustantimes[0].url);
             setImgURL(theHindustantimes[0].urlToImage);
-        } else setTitle("No Data Available From THE HINDUSTAN TIMES Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From THE HINDUSTAN TIMES Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
 
         setButtonState(true);
     }
@@ -116,7 +141,12 @@ const NewsHandlers = () => {
             setContent(theIndiaToday[0].content);
             setURL(theIndiaToday[0].url);
             setImgURL(theIndiaToday[0].urlToImage);
-        } else setTitle("No Data Available From INDIA TODAY Please Look For Other Media Hubs");
+        } else {
+            setTitle("No Data Available From INDIA TODAY Please Look For Other Media Hubs");
+            setContent("");
+            setURL("")
+            setImgURL("/assets/images/nodata.png");
+        }
 
         setButtonState(true);
     }
